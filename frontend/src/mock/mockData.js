@@ -13,7 +13,9 @@ export const restaurantInfo = {
   phone: "09 55 92 90 68",
   priceRange: "10–20 € par personne",
   services: ["Sur place", "À emporter", "Livraison sans contact"],
-  uberEatsUrl: "https://ubereats.com",
+  // LIENS CORRIGÉS CI-DESSOUS
+  uberEatsUrl: "https://www.ubereats.com/fr/store/le-ptit-thai-2/kpn2a950TmOx3rLio2nFdQ",
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le+P'tit+Thaï+2+139+Av.+du+Vert-Bois,+34090+Montpellier",
   openingHours: "Ouvre à 11h30"
 };
 

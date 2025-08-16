@@ -5,7 +5,8 @@ import { restaurantInfo, heroVideo } from '../mock/mockData';
 
 const Hero = () => {
   const handleOrderClick = () => {
-    alert("Redirection vers Uber Eats - Fonctionnalité mockée");
+    // Ouvre le lien Uber Eats dans un nouvel onglet
+    window.open(restaurantInfo.uberEatsUrl, '_blank');
   };
 
   return (

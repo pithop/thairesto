@@ -1,3 +1,10 @@
+// Import your new images and video at the top of the file
+import heroVideoData from '../assets/thai-food-video.mp4'; // Assuming your video is named this
+import restaurantImg from '../assets/unnamed.jpg';
+import foodImg1 from '../assets/2024-06-08.jpg';
+import foodImg2 from '../assets/2024-06-08 (1).jpg';
+import foodImg3 from '../assets/2024-06-08 (3).jpg';
+
 // Mock data pour Le P'tit Thaï 2
 
 export const restaurantInfo = {
@@ -97,20 +104,21 @@ export const testimonials = [
 export const foodImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=400&h=300&fit=crop",
-    alt: "Pad Thaï aux crevettes"
+    url: foodImg1,
+    alt: "Plat thaï 1"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop",
-    alt: "Curry vert thaï"
+    url: foodImg2,
+    alt: "Plat thaï 2"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=400&h=300&fit=crop",
-    alt: "Salade de papaye verte"
+    url: foodImg3,
+    alt: "Plat thaï 3"
   }
 ];
 
-export const heroImage = "https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=1200&h=800&fit=crop";
-export const restaurantImage = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop";
+// **FIXED LINE**: Exporting the video data for the Hero component
+export const heroVideo = heroVideoData;
+export const restaurantImage = restaurantImg;
